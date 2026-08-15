@@ -20,7 +20,7 @@ export default function Page() {
     importModules,
     clearLastCreatedId,
     clearTree,
-  } = useCurriculumState("Pflegefachassistenz — Program 1");
+  } = useCurriculumState("Untitled Program");
 
   const actions = {
     setTitle,

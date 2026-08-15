@@ -73,7 +73,7 @@ function reducer(state: CurriculumState, action: Action): CurriculumState {
   }
 }
 
-export function useCurriculumState(initialTitle = "New Program") {
+export function useCurriculumState(initialTitle = "Untitled Program") {
   const [state, dispatch] = useReducer(reducer, undefined, () => ({
     tree: emptyCurriculum(initialTitle),
     lastCreatedId: null,
