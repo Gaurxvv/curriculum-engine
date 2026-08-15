@@ -1,4 +1,4 @@
-# Lingocare Curriculum Creation Engine
+# Curriculum Creation Engine
 
 A web-based Curriculum Creation Engine for vocational and nursing education (Curriculum → Module → Topic → Lesson), supporting both **manual authoring** (Notion-style inline editing) and **AI-powered document ingestion** (parsing PDFs with structured LLM extraction).
 
