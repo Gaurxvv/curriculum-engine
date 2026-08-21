@@ -4,9 +4,10 @@ import { CurriculumNode, emptyNode } from "./types";
 import { ParseEvent } from "./parseEvents";
 
 // Provider defaults:
-const DEFAULT_GROQ_MODEL = "llama-3.3-70b-versatile";
+const DEFAULT_GROQ_MODEL = "openai/gpt-oss-120b";
 const DEFAULT_OPENROUTER_MODEL = "qwen/qwen-2.5-72b-instruct";
 const DEFAULT_ANTHROPIC_MODEL = "claude-3-5-sonnet-20241022";
+
 
 type ProviderType = "groq" | "openrouter" | "anthropic";
 
